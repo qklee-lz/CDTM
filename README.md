@@ -2,7 +2,7 @@
 
 
 - ### Overview of our PGA-Net
-<img src=./figures/overflow.png>
+<img src=./Figures/overflow.png>
 
 ## 1.Dataset
 ### BreakHis
