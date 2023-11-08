@@ -1,7 +1,7 @@
 # Embracing Large Natural Data: Enhancing Medical Image Analysis via Cross-domain Fine-tuning
 
 
-- ### Overview of our PGA-Net
+- ### Overview of our CDTM
 <img src=./Figures/overflow.png>
 
 ## 1.HARDWARE & SOFTWARE
