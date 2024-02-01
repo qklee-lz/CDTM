@@ -4,7 +4,7 @@
 <img src=./CDTM.png>
 
 
-The implementation of 'Cross-Domain Transfer Module' can be found in '/data/lqk/medical/classifer_xl/JBHI/CODE/models/modules.py'.
+The implementation of 'Cross-Domain Transfer Module' can be found in './CODE/models/modules.py'.
 
 ---
 ## Data Preparation
