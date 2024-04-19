@@ -26,7 +26,7 @@ vit & full & BreakHis:
 - python -m torch.distributed.launch --nproc_per_node=1 CODE/train.py --model-mode vit --finetune-mode full --csv-dir malignant_all_5fold.csv --config-name 'config_clip_vit' --image-size 224 --epochs 100 --init-lr 1e-4 --batch-size 8 --num-workers 8 --nbatch_log 300 --warmup_epochs 2 --val_fold 0 --test_fold 1 --data-root ./ --gpu_id 5
 
 vit & frt & BreakHis:
-- python -m torch.distributed.launch --nproc_per_node=1 CODE/train.py --model-mode vit --finetune-mode full --csv-dir malignant_all_5fold.csv --config-name 'config_clip_vit' --image-size 224 --epochs 100 --init-lr 1e-4 --batch-size 8 --num-workers 8 --nbatch_log 300 --warmup_epochs 2 --val_fold 0 --test_fold 1 --data-root ./ --gpu_id 5
+- python -m torch.distributed.launch --nproc_per_node=1 CODE/train.py --model-mode vit --finetune-mode frt --csv-dir malignant_all_5fold.csv --config-name 'config_clip_vit' --image-size 224 --epochs 100 --init-lr 1e-4 --batch-size 8 --num-workers 8 --nbatch_log 300 --warmup_epochs 2 --val_fold 0 --test_fold 1 --data-root ./ --gpu_id 5
 - SFT (Staged Fine-tuning)
     - firt step (freeze backbone) 
     - seconde step (Modify _C.MODEL.finetune = None in CODE/config_clip_vit.py and replace "None" with the "weight pth path" obtained after freeze training)
