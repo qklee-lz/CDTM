@@ -78,11 +78,14 @@ Since our server environment is a bit messy, there are many contents in the requ
 ---
 ## Citation
 ```
-@article{li2023embracing,
-  title={Embracing large natural data: Enhancing medical image analysis via cross-domain fine-tuning},
+@ARTICLE{10361546,
   author={Li, Qiankun and Huang, Xiaolong and Fang, Bo and Chen, Huabao and Ding, Siyuan and Liu, Xu},
-  journal={IEEE Journal of Biomedical and Health Informatics},
-  year={2023},
-  publisher={IEEE}
-}
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={Embracing Large Natural Data: Enhancing Medical Image Analysis via Cross-Domain Fine-Tuning}, 
+  year={2024},
+  volume={28},
+  number={8},
+  pages={4512-4521},
+  keywords={Biomedical imaging;Visualization;Transformers;Task analysis;Bioinformatics;Image analysis;Transfer learning;Large natural data;medical image;cross-domain learning;staged fine-tuning},
+  doi={10.1109/JBHI.2023.3343518}}
 ```
